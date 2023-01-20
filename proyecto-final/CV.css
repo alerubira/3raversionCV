@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+#principal{
+    width: 65%;float: left;
+}
+#propaganda{
+    width: 35%;float:right;
+    
+}
+#ulp{
+    background-color: lightgreen;
+    
+}
+@media only screen and (max-width: 532px) {
+    #principal{
+        width: 100%;
+    }
+    #propaganda{
+        width: 100%;
+    }
+    
+}
+#certificadoP{
+    display: none;
+}
+#certificadoJ{
+    display: none;
+}
+#botonVolverP{
+    display: none;
+}
+#botonVolverJ{
+    display: none;
+}
+#datosPersonales{
+    background-color: aqua;
+    border: 3px solid black;
+    
+}
+h1{
+    background-color: black;
+    color: white;
+    
+}
+#experienciaLaboral{
+    border: 4px solid red;
+}
+#estudios{
+    background-color: rgb(255, 0, 247);
+    border: 5px solid black;
+}
+h3{
+    color: blue;
+}
+
